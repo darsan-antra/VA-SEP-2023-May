@@ -1,4 +1,4 @@
-# Ansible Master script
+# Setup A Local DevOps Lab
 
 $setup_server = <<SCRIPT
 
