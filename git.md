@@ -81,4 +81,19 @@ git branch
   690  git branch
   691  git log
 
-
+  699  vim git.md
+  700  git branch
+  701  mv git.md /tmp/
+  702  git checkout dev
+  703  mv /tmp/git.md .
+  704  git status
+  705  git add git.md 
+  706  git commit -m "added giot commands"
+  707  git push origin dev
+  708  git checkout
+  709  git checkout main
+  710  git pull
+  711  git checkout dev2
+  712  git branch
+  713  git checkout -b dev2
+  714  git branch
