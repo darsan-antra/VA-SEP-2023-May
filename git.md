@@ -97,3 +97,4 @@ git branch
   712  git branch
   713  git checkout -b dev2
   714  git branch
+This line will create a conflict.
