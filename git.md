@@ -97,4 +97,55 @@ git branch
   712  git branch
   713  git checkout -b dev2
   714  git branch
+
+  724  git branch
+  725  git checkout dev
+  726  vim git.md 
+  727  git add git.md 
+  728  git commit -m "creating a conflict"
+  729  git push origin dev
+  730  git status
+  732  git checkout main
+  733  git merge dev
+  734  ll
+  735  vim git.md 
+  736  git commit -m "fixed conflict"
+  737  git add *
+  738  git commit -m "fixed conflict"
+  739  git push origin main
+  740  git checkout dev
+  741  cat git.md 
+  742  git pull origin main
+  743  cat git.md 
+  744  git checkout dev2
+  745  cat git.md 
+  746  git pull
+  747  git pull origin dev
+  748  git pull origin main
+  749  ll
+  750  vi git.md 
+  751  git checkout fix-conflict
+  752  git checkout -b fix-conflict
+  753  git branch
+  754  vim git.md 
+  755  git add git.md 
+  756  git commit -m "fixed conflict"
+  757  git checkout dev2
+  758  git status
+  759  vim git.md 
+  760  git branch
+  762  git checkout dev
+  763  vim git.md 
+  764  git checkout dev2
+  765  vim git.md 
+  766  git merge fix-conflict
+  767  git status
+  768  git push origin dev
+  769  git branch -d fix-conflict
+  770  date
+  771  git tag
+  772  git tag -a "20230523" -m "Mon May 22 03:50:27 PM EDT 2023"
+  773  git tag
+  774  git push origin tags
+  775  git push origin 20230523
 This line will create a conflict.
